@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora de IMC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            form {
+                margin: 0px auto;
+                margin-top:300px;
+                height: 210px;
+                width: 250px;
+                background-color: #cccccc;
+            }
+            input[type=submit]{
+                background-color: blue;
+                color: white;
+            }
+            input[type=reset]{
+                background-color: red;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="imc.jsp">
+            <p>Calculadora de IMC</p>
+            <p><input type="text" name="nome" placeholder="Digite seu nome aqui" required/></p>
+            <p><input type="number" name="altura" placeholder="Exemplo: 1,80" required step="0.01"/>  metros</p>
+            <p><input type="number" name="peso" placeholder="Exemplo: 50" required step="0.1"/> kg</p>
+            <p><input type="submit" value="Calcular"/></p>
+            <p><input type="reset" value="Apagar"/></p>
+        </form>
+    </body>
+</html>

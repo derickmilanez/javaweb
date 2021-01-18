@@ -1,0 +1,31 @@
+fieldset{
+    border: 3px #af3333 solid;
+    border-radius: 8px;
+    background-color: #ffffaa;
+    width: 20%;
+}
+#cadastrar{
+    border: 3px #af3333 solid;
+    border-radius: 8px;
+    background-color: greenyellow;
+}
+#apagar{
+    border: 3px #af3333 solid;
+    border-radius: 8px;
+    background-color: red;
+}
+.texto{
+    border: 3px #af3333 solid;
+    border-radius: 8px;
+    background-color: #ffffcc;
+    width: 80%;
+}
+#sal{
+    border: 3px #af3333 solid;
+    border-radius: 8px;
+    background-color: #ffffcc;
+    width: 25%;
+}
+#erro{
+    color: red;
+}

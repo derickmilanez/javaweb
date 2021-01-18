@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <fieldset> 
+            <legend>Cadastro de Funcionário</legend>
+            <form action="Controle" method="post" >
+                <p><input class="texto" type="text" name="nome" placeholder="Nome" required></p>
+                <p><input class="texto" type="text" name="cargo" placeholder="Cargo" required></p>
+                <p><input id="sal" type="number" step="0.01" min="1000.00" placeholder="Salário" name="salario" required></p>
+                <p><input type="hidden" name="sinal" value="cadastrar"></p>
+                <p><input id="cadastrar" name="botao" value="CADASTRAR" type="submit">
+                    <input id="apagar" type="reset" value="APAGAR"></p>
+            </form>
+        </fieldset>
+    </body>
+</html>
